@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<body>
+   <script>
+        inputNum = window.prompt("Input angka");
+        oddNum = "";
+        for(i = 1 ; i <= inputNum; i++){
+            if(i % 2 !== 0){
+                oddNum += i + " ";
+            }
+        }
+
+        document.write("Bilangan ganjil dari 1 sampai " + inputNum + " adalah " + oddNum);
+   </script> 
+</body>
+</html>
